@@ -1,2 +1,32 @@
-body {
-  background-color: 
+body
+{  
+	background-color: #FFF;
+}
+
+.header
+{
+	background-color: #FFF;
+	margin:10px 5px 15px 20px;
+}
+
+.menu
+{
+	margin:10px 4cm 15px 20px;
+	background-color: #CCFF66;
+	line-height:30px;
+	height:300px;
+	width:200px;
+	float:left;
+	padding:10px;
+}
+.content
+{
+	text-align:left;
+	margin: 2cm 10cm 2cm 0.5cm;
+	
+}
+.footer
+{
+	background-color: #FFF;
+	margin:3cm 5px 15px 20px;
+}
