@@ -6,27 +6,60 @@ body
 .header
 {
 	background-color: #FFF;
-	margin:10px 5px 15px 20px;
+	text-align: center;
+	margin: 10px 5px 15px 20px;
 }
 
-.menu
-{
-	margin:10px 4cm 15px 20px;
-	background-color: #CCFF66;
-	line-height:30px;
-	height:300px;
-	width:200px;
-	float:left;
-	padding:10px;
+ul, ul li {
+	display: block;
+	list-style: none;
+	margin: 10px -45px 15px 45px;
+	padding: 0;
 }
-.content
+
+ul {
+	position: absolute;
+}
+
+ul li {
+	float: left;
+	border-width: 0 1px 1px 1px;
+	border-style: solid;
+	border-color: transparent #8B0000;
+}
+
+ul a:link, ul a:visited {
+	text-decoration: none;
+	display: block;
+	width: 120px;
+	text-align: center;
+	padding: 10px 0;
+	font-weight: bold;
+	background-color: #DC143C;
+	color: #def;
+	border-top: 10px solid #8B0000;
+}
+
+ul a:hover {
+	background-color: #8B0000;
+	color: #fff;
+	border-top: 20px solid #DC143C;
+}
+
+.text1
 {
-	text-align:left;
-	margin: 2cm 10cm 2cm 0.5cm;
+	text-align: left;
+	margin: 5cm 10cm 2cm 11cm;
 	
 }
-.footer
+
+.text2
+{
+	text-align: left;
+	margin: 5cm 4cm 4cm 4cm;
+}
+.impressum
 {
 	background-color: #FFF;
-	margin:3cm 5px 15px 20px;
+	margin: 0;
 }
