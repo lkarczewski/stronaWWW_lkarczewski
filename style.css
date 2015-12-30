@@ -37,7 +37,7 @@ ul a:link, ul a:visited {
 	padding: 10px 0;
 	font-weight: bold;
 	background-color: #DC143C;
-	color: #def;
+	color: #FFF;
 	border-top: 10px solid #8B0000;
 }
 
@@ -50,13 +50,13 @@ ul a:hover {
 li a.active
 {
     background-color: #8B0000;
-    color: white;
+    color: #FFF;
 }
 
 li a:hover:not(.active)
 {
     background-color: #8B0000;
-    color: white;
+    color: #FFF;
 }
 
 .text1
@@ -86,7 +86,7 @@ li a:hover:not(.active)
 .impressum
 {
 	background-color: #FFF;
-	margin: 2cm 2cm 0cm 0cm;
+	margin: cm 0cm 0cm 0cm;
 	text-align: left;
 }
 
@@ -99,9 +99,30 @@ table
 th
 {
 	background-color: #DC143C;
-	color: white;
+	color: #FFF;
 	text-align: center;
 	padding: 8px;
 }
 
-tr:nth-child(even){background-color: #f2f2f2}
+tr:nth-child(even){background-color: #e0e0d1}
+
+.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+.img:hover {
+    border: 1px solid #777;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
