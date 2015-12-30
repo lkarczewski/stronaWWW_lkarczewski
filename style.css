@@ -87,4 +87,21 @@ li a:hover:not(.active)
 {
 	background-color: #FFF;
 	margin: 2cm 2cm 0cm 0cm;
+	text-align: left;
 }
+
+table
+{
+	border-collapse: solid;
+	text-align: left;
+}
+
+th
+{
+	background-color: #DC143C;
+	color: white;
+	text-align: center;
+	padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
