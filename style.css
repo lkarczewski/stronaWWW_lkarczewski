@@ -11,6 +11,11 @@ body
 	margin: 15px 5px 15px 20px;
 }
 
+.menu
+{
+	margin-left: 250px;
+}
+
 ul, ul li {
 	display: block;
 	list-style: none;
