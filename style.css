@@ -19,11 +19,6 @@ body
 	width: 1000px;
 }
 
-.menu
-{
-	margin-left: 250px;
-}
-
 ul, ul li {
 	display: block;
 	list-style: none;
