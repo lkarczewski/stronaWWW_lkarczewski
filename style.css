@@ -4,11 +4,19 @@ body
 	font-family: "Arial", Arial, sans-serif;
 }
 
+.site
+{
+	width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .header
 {
 	background-color: #ffff66;
 	text-align: center;
-	margin: 15px 5px 15px 20px;
+	margin: 15px 40px 15px 220px;
+	width: 1000px;
 }
 
 ul, ul li {
@@ -62,49 +70,70 @@ li a:hover:not(.active)
 .text1
 {
 	text-align: left;
-	margin: 1cm 10cm 1cm 11cm;
+	margin: 20px 150px 20px 100px;
 	
 }
 
 .text2
 {
 	text-align: left;
-	margin: 5cm 4cm 2cm 2cm;
+	margin: 150px 200px 80px 200px;
 }
 
 .text3
 {
 	text-align: left;
-	margin: 1cm 4.5cm 2cm 4.5cm;
+	margin: 50px 200px 80px 200px;
 }
 
 .text4
 {
 	text-align: left;
-	margin: 2cm 2cm 3cm 5cm;	
+	margin-left: 6cm;
+	margin-right: 10cm;	
+}
+
+.entrance
+{
+	text-align: left;
+	margin: 200px 150px 50px 20px;
 }
 
 .img
 {
 	margin-top: 5cm;
+	margin-left: 4cm;
+	margin-right: 4cm;
 }
 
 .img1
 {
 	margin:1cm;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.impressum
+.img2
+{
+	margin: 20px 150px 20px 100px;
+}
+
+.footer
 {
 	background-color: #ffff66;
-	margin: 2cm 0cm 0cm 0cm;
+	margin: 2cm 4cm 0cm 4cm;
 	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 table
 {
 	border-collapse: solid;
 	text-align: left;
+	margin-left: 100px;
+	margin-right: auto;
+	
 }
 
 th
